@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{CDD4FBA0-B55A-4680-A4A3-E51414D558BD}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>Flutter</RootNamespace>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Console</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.apk" />
+    <None Include="MedKit\.gitignore" />
+    <None Include="MedKit\.metadata" />
+    <None Include="MedKit\android\.gitignore" />
+    <None Include="MedKit\android\app\build.gradle" />
+    <None Include="MedKit\android\app\google-services.json" />
+    <None Include="MedKit\android\app\src\google-services.json" />
+    <None Include="MedKit\android\app\src\main\kotlin\com\pharma.medkit\MainActivity.kt" />
+    <None Include="MedKit\android\build.gradle" />
+    <None Include="MedKit\android\gradle.properties" />
+    <None Include="MedKit\android\gradle\wrapper\gradle-wrapper.properties" />
+    <None Include="MedKit\android\settings.gradle" />
+    <None Include="MedKit\android\settings_aar.gradle" />
+    <None Include="MedKit\ios\.gitignore" />
+    <None Include="MedKit\ios\Flutter\AppFrameworkInfo.plist" />
+    <None Include="MedKit\ios\Flutter\Debug.xcconfig" />
+    <None Include="MedKit\ios\Flutter\Release.xcconfig" />
+    <None Include="MedKit\ios\Runner.xcodeproj\project.pbxproj" />
+    <None Include="MedKit\ios\Runner.xcodeproj\project.xcworkspace\contents.xcworkspacedata" />
+    <None Include="MedKit\ios\Runner.xcodeproj\xcshareddata\xcschemes\Runner.xcscheme" />
+    <None Include="MedKit\ios\Runner.xcworkspace\contents.xcworkspacedata" />
+    <None Include="MedKit\ios\Runner\AppDelegate.swift" />
+    <None Include="MedKit\ios\Runner\Assets.xcassets\AppIcon.appiconset\Contents.json" />
+    <None Include="MedKit\ios\Runner\Assets.xcassets\LaunchImage.imageset\Contents.json" />
+    <None Include="MedKit\ios\Runner\Assets.xcassets\LaunchImage.imageset\README.md" />
+    <None Include="MedKit\ios\Runner\Base.lproj\LaunchScreen.storyboard" />
+    <None Include="MedKit\ios\Runner\Base.lproj\Main.storyboard" />
+    <None Include="MedKit\ios\Runner\Info.plist" />
+    <None Include="MedKit\lib\animations\bottomAnimation.dart" />
+    <None Include="MedKit\lib\animations\fadeAnimation.dart" />
+    <None Include="MedKit\lib\doctor\addDisease.dart" />
+    <None Include="MedKit\lib\doctor\doctorAbout.dart" />
+    <None Include="MedKit\lib\doctor\doctorLogin.dart" />
+    <None Include="MedKit\lib\doctor\doctorPanel.dart" />
+    <None Include="MedKit\lib\doctor\doctorProfile.dart" />
+    <None Include="MedKit\lib\main.dart" />
+    <None Include="MedKit\lib\otherWidgetsAndScreen\aboutUs.dart" />
+    <None Include="MedKit\lib\otherWidgetsAndScreen\backBtnAndImage.dart" />
+    <None Include="MedKit\lib\otherWidgetsAndScreen\category.dart" />
+    <None Include="MedKit\lib\otherWidgetsAndScreen\customListTiles.dart" />
+    <None Include="MedKit\lib\otherWidgetsAndScreen\medDetails.dart" />
+    <None Include="MedKit\lib\patient\patientLogin.dart" />
+    <None Include="MedKit\lib\patient\patientPanel.dart" />
+    <None Include="MedKit\lib\patient\patientProfile.dart" />
+    <None Include="MedKit\pubspec.yaml" />
+    <None Include="MedKit\README.md" />
+    <None Include="MedKit\test\widget_test.dart" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MedKit\android\app\src\debug\AndroidManifest.xml" />
+    <Content Include="MedKit\android\app\src\main\AndroidManifest.xml" />
+    <Content Include="MedKit\android\app\src\main\res\drawable\launch_background.xml" />
+    <Content Include="MedKit\android\app\src\main\res\mipmap-hdpi\ic_launcher.png" />
+    <Content Include="MedKit\android\app\src\main\res\mipmap-mdpi\ic_launcher.png" />
+    <Content Include="MedKit\android\app\src\main\res\mipmap-xhdpi\ic_launcher.png" />
+    <Content Include="MedKit\android\app\src\main\res\mipmap-xxhdpi\ic_launcher.png" />
+    <Content Include="MedKit\android\app\src\main\res\mipmap-xxxhdpi\ic_launcher.png" />
+    <Content Include="MedKit\android\app\src\main\res\values\styles.xml" />
+    <Content Include="MedKit\android\app\src\profile\AndroidManifest.xml" />
+    <Content Include="MedKit\assets\bigDoc.png" />
+    <Content Include="MedKit\assets\bigPat.png" />
+    <Content Include="MedKit\assets\cui.png" />
+    <Content Include="MedKit\assets\doctor.png" />
+    <Content Include="MedKit\assets\dsc.png" />
+    <Content Include="MedKit\assets\dscn.png" />
+    <Content Include="MedKit\assets\google.png" />
+    <Content Include="MedKit\assets\hospital.png" />
+    <Content Include="MedKit\assets\injection.png" />
+    <Content Include="MedKit\assets\mapicon.png" />
+    <Content Include="MedKit\assets\medkit.png" />
+    <Content Include="MedKit\assets\patient.png" />
+    <Content Include="MedKit\assets\pcps.png" />
+    <Content Include="MedKit\assets\pill.png" />
+    <Content Include="MedKit\assets\sad.png" />
+    <Content Include="MedKit\assets\steth.png" />
+    <Content Include="MedKit\assets\syrup.png" />
+    <Content Include="MedKit\assets\tablets.png" />
+    <Content Include="MedKit\images\about.jpg" />
+    <Content Include="MedKit\images\addMed.jpg" />
+    <Content Include="MedKit\images\doctorDetails.jpg" />
+    <Content Include="MedKit\images\doctorEdit.jpg" />
+    <Content Include="MedKit\images\doctorLogin.jpg" />
+    <Content Include="MedKit\images\doctorpanel.jpg" />
+    <Content Include="MedKit\images\doctorProfile.jpg" />
+    <Content Include="MedKit\images\gmailAPI.jpg" />
+    <Content Include="MedKit\images\mapView.jpg" />
+    <Content Include="MedKit\images\medDetails.jpg" />
+    <Content Include="MedKit\images\MedKit.png" />
+    <Content Include="MedKit\images\patientLogin.jpg" />
+    <Content Include="MedKit\images\patientPanel.jpg" />
+    <Content Include="MedKit\images\patientProfile.jpg" />
+    <Content Include="MedKit\images\user.jpg" />
+    <Content Include="MedKit\images\welcome.jpg" />
+    <Content Include="MedKit\ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-1024x1024%401x.png" />
+    <Content Include="MedKit\ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-20x20%401x.png" />
+    <Content Include="MedKit\ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-20x20%402x.png" />
+    <Content Include="MedKit\ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-20x20%403x.png" />
+    <Content Include="MedKit\ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-29x29%401x.png" />
+    <Content Include="MedKit\ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-29x29%402x.png" />
+    <Content Include="MedKit\ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-29x29%403x.png" />
+    <Content Include="MedKit\ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-40x40%401x.png" />
+    <Content Include="MedKit\ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-40x40%402x.png" />
+    <Content Include="MedKit\ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-40x40%403x.png" />
+    <Content Include="MedKit\ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-60x60%402x.png" />
+    <Content Include="MedKit\ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-60x60%403x.png" />
+    <Content Include="MedKit\ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-76x76%401x.png" />
+    <Content Include="MedKit\ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-76x76%402x.png" />
+    <Content Include="MedKit\ios\Runner\Assets.xcassets\AppIcon.appiconset\Icon-App-83.5x83.5%402x.png" />
+    <Content Include="MedKit\ios\Runner\Assets.xcassets\LaunchImage.imageset\LaunchImage%402x.png" />
+    <Content Include="MedKit\ios\Runner\Assets.xcassets\LaunchImage.imageset\LaunchImage%403x.png" />
+    <Content Include="MedKit\ios\Runner\Assets.xcassets\LaunchImage.imageset\LaunchImage.png" />
+    <Content Include="MedKit\ios\Runner\Runner-Bridging-Header.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\Flutter\v17\" />
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
